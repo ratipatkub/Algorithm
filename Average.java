@@ -22,7 +22,7 @@ public class Average {
     int sum= num1+num2+num3+num4+num5;
     System.out.println("Sum is "+sum);
 
-    System.out.print("Average is ");
+    System.out.print("Number of average is ");
     int av= scanner.nextInt();
 
     int average= sum/av;
