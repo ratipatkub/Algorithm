@@ -8,7 +8,7 @@ public class BMIcalculator {
         double weight = scanner.nextDouble();
 
         System.out.print("Enter your height in meters: ");
-        float height = scanner.nextFloat();
+        float height = scanner.nextfloat();
 
         final double BMI=weight/(height*height);
         System.out.println("Your BMI for weight ="+weight+"kg and height ="+height+"meters is: "+BMI+"bmi.");
