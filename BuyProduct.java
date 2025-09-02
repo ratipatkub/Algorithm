@@ -29,6 +29,7 @@ public class BuyProduct{
 
         System.out.println("-----------Receipt--------------");
         
+<<<<<<< HEAD
         System.out.println("Pen: 4.0 Bath");
 
         System.out.println("Pencil: 6.0 Bath");
@@ -49,5 +50,9 @@ public class BuyProduct{
 
         double change = customermoney-netprice;
         System.out.println("Change = "+change+ " bath");
+=======
+        System.out.printf("Pen: "+ (float)price1 "Bath");
+        
+>>>>>>> a4d2a6b68fb034c99d31e7c0eaf853a7c1889577
     }
 }
