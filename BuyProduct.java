@@ -98,7 +98,7 @@ public class BuyProduct{
 
         double change = customermoney-netprice; 
 
-        System.out.println("Change = "+change+ " bath"); 
+        System.out.println("Change = "+change+ " bath");
 
     } 
 
