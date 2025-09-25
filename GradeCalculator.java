@@ -13,18 +13,33 @@ public class GradeCalculator{
             System.out.print("Wrong score");            
         }
         else if(score >= 80){
+            System.out.println("---Result---");
+            System.out.println("Name : "+studentName);
+            System.out.println("Score: "+score);
             System.out.print("Grade: A");
         }
         else if (score >= 70){
+            System.out.println("---Result---");
+            System.out.println("Name : "+studentName);
+            System.out.println("Score: "+score);
             System.out.print("Grade: B");
         }
         else if (score >= 60){
+            System.out.println("---Result---");
+            System.out.println("Name : "+studentName);
+            System.out.println("Score: "+score);
             System.out.print("Grade: C");
         }
         else if (score >= 50){
+            System.out.println("---Result---");
+            System.out.println("Name : "+studentName);
+            System.out.println("Score: "+score);
             System.out.print("Grade: D");
         }
         else{
+            System.out.println("---Result---");
+            System.out.println("Name : "+studentName);
+            System.out.println("Score: "+score);
             System.out.print("Grade: E");
         }
     }

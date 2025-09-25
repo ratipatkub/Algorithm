@@ -7,12 +7,15 @@ public class TemperatureStatus{
         double temperature = scanner.nextInt();
 
         if(temperature < 20){
+            System.out.println("Temperature: "+temperature+" ํC");
             System.out.print("Status: Cold");
         }
         else if(((temperature >= 20) && temperature <= 35)){
+            System.out.println("Temperature: "+temperature+" ํC");
             System.out.print("Status: Normal");
         }
         else{
+            System.out.println("Temperature: "+temperature+" ํC");
             System.out.print("Status: Hot");
         }
     }
